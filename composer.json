@@ -1,0 +1,30 @@
+{
+  "name": "hucoding/hucoding-arabic",
+  "type": "flarum-extension",
+  "description": "Arabic Language Pack.",
+  "keywords": ["locale", "Arabic", "العربية"],
+  "license": "MIT",
+  "require": {
+        "flarum/core": "^0.1.0-beta.5"
+  },
+  "autoload": {
+    "psr-4": {
+      "hucoding\\hucodingarabic\\": "src/"
+    }
+  },
+  "extra": {
+      "flarum-extension": {
+          "title": "Arabic Language",
+          "icon": {
+              "image": "icon.svg",
+              "backgroundColor": "#006233",
+              "backgroundSize": "cover",
+              "backgroundPosition": "center"
+          }
+      },
+      "flarum-locale": {
+          "code": "ar",
+          "title": "Arabic"
+      }
+  }
+}
